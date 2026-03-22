@@ -36,7 +36,7 @@ module bias_bram
 
     initial
     begin
-        $readmemh("C:/ACAD/Sem6/OELP_DL_VLSI/cnn_conv/cnn_conv.srcs/sources_1/new/c1_bias.hex", mem);
+        $readmemh("upload path of req. hex file", mem);
     end
 
     always @(posedge clk)
